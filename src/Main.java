@@ -21,6 +21,16 @@ public class Main {
         }
         for (Map.Entry<String, Integer> o : map.entrySet())
             System.out.println(o.getKey() + ": " + o.getValue());
+
+
+
+        Phonebook phonebook1 = new Phonebook();
+        phonebook1.add(89997775544l,"иванов");
+        phonebook1.add(89997775547l,"иванов");
+        phonebook1.add(89997775545l,"петров");
+        phonebook1.add(89997775511l,"петров");
+        phonebook1.add(89997775522l,"иванов");
+        phonebook1.get("иванов");
     }
 
 
